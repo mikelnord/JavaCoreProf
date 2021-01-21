@@ -52,7 +52,7 @@ public class WaitNotifyClass {
                     while (currentLetter != 'C') {
                         mon.wait();
                     }
-                    System.out.print("C ");
+                    System.out.print("C");
                     currentLetter = 'A';
                     mon.notifyAll();
                 }
